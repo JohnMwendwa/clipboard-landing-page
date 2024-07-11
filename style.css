@@ -45,7 +45,7 @@ h3 {
 }
 
 .intro {
-  background-image: url("images/bg-header-desktop.png");
+  background-image: url("images/bg-header-mobile.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -117,6 +117,9 @@ h3 {
 }
 
 @media screen and (min-width: 768px) {
+  .intro {
+    background-image: url("images/bg-header-desktop.png");
+  }
   .cta {
     flex-direction: row;
   }
